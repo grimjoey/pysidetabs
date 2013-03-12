@@ -16,4 +16,4 @@ Lesser GNU General Public License for more details.
 You should have received a copy of the Lesser GNU General Public License
 along with PySideTabs.  If not, see <http://www.gnu.org/licenses/>.
 
-@author: Jo Are By <grimjoey@gmail.com>
+Copyright 2013 Jo Are By

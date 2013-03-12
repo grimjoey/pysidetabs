@@ -16,6 +16,8 @@ Created on 11. mars 2013
     You should have received a copy of the Lesser GNU General Public License
     along with PySideTabs.  If not, see <http://www.gnu.org/licenses/>.
 
+    Copyright 2013 Jo Are By
+
 @author: Jo Are By <grimjoey@gmail.com>
 '''
 
