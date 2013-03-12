@@ -59,7 +59,6 @@ class Tabs(QWidget):
         sizePolicy = QSizePolicy()
         sizePolicy.setHorizontalPolicy(QSizePolicy.Policy.MinimumExpanding)
         self.setSizePolicy(sizePolicy)
-        self._initUi()
 
     def addTab(self, text, setActive = True):
         if self.activeTab is None:
@@ -69,15 +68,6 @@ class Tabs(QWidget):
         if setActive:
             self.setActiveTab(len(self.tabs) - 1)
         self.resize(self._getXAfterSecondTransition(len(self.tabs) - 1), self.preferredHeight)
-    
-    def _initUi(self):
-        self.addTab('First')
-        self.addTab('Second')
-        self.addTab('Third')
-        self.addTab('BALASLKDAjsdakjsldkjalskdjalksjda')
-        self.renameTab("Fourth", 3)
-        self.closeTab(0)
-        self.swapTabs(0, 1)
     
     def renameTab(self, text, tabIx):
         self.tabs[tabIx] = text

@@ -35,6 +35,13 @@ class MainWindow(QMainWindow):
     def _initUi(self):
         self.setWindowTitle('Tabs test')
         self.tabs = Tabs(self)
+        self.tabs.addTab('First')
+        self.tabs.addTab('Second')
+        self.tabs.addTab('Third')
+        self.tabs.addTab('BALASLKDAjsdakjsldkjalskdjalksjda')
+        self.tabs.renameTab("Fourth", 3)
+        self.tabs.closeTab(0)
+        self.tabs.swapTabs(0, 1)
         self.show()
     
     def sizeHint(self):
